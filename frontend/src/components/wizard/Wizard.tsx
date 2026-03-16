@@ -1,6 +1,6 @@
 import { useReducer, useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { wizardReducer, INITIAL_STATE, WizardStep, WIZARD_STEPS } from './reducer'
+import { wizardReducer, INITIAL_STATE, WIZARD_STEPS } from './reducer'
 import { StepIndicator } from './StepIndicator'
 import { GoldButton } from '../ui/GoldButton'
 import { LineageStep } from './steps/LineageStep'

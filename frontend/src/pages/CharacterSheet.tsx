@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import { Character } from '../types/character'
 import { getCharacter, patchCharacter } from '../api/client'
 import { GoldButton } from '../components/ui/GoldButton'

@@ -103,9 +103,6 @@ export function StatsStep({ state, onStatMethod, onScore, onAssign }: Props) {
           <div>
             <div className="flex gap-2 mb-4 flex-wrap">
               {STANDARD_ARRAY.map((val, i) => {
-                const used = usedValues.includes(val) && usedValues.indexOf(val) !== usedValues.lastIndexOf(val)
-                  ? usedValues.filter(v => v === val).length > 0
-                  : usedValues.includes(val)
                 return (
                   <span key={i} className={`px-3 py-1.5 rounded-lg border font-mono font-bold text-sm
                     ${usedValues.filter(v => v === val).length > STANDARD_ARRAY.filter(v => v === val).indexOf(val)

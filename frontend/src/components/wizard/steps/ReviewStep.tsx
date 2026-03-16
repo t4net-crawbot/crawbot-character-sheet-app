@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { WizardState, getEffectiveScores } from '../reducer'
-import { ABILITY_NAMES, CLASS_HIT_DICE, getModifier, formatModifier, getProficiencyBonus, getHPAtLevel1 } from '../../../utils/dnd-math'
+import { ABILITY_NAMES, CLASS_HIT_DICE, getModifier, formatModifier, getHPAtLevel1 } from '../../../utils/dnd-math'
 import { GoldButton } from '../../ui/GoldButton'
 import { createCharacter } from '../../../api/client'
 

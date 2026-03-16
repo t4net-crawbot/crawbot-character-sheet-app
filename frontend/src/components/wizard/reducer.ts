@@ -1,4 +1,4 @@
-import { ABILITY_NAMES, STANDARD_ARRAY } from '../../utils/dnd-math'
+import { ABILITY_NAMES } from '../../utils/dnd-math'
 
 export type WizardStep = 'LINEAGE' | 'CLASS' | 'BACKGROUND' | 'STATS' | 'TALENT' | 'STORY' | 'REVIEW'
 
